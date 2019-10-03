@@ -14,6 +14,7 @@
     "./remove/remove.js",
     "./rollback/index.js",
     "./slstats/slstats.js",
+    "./setup/setup.js",
     "./plugin/plugin.js",
     "./plugin/install/install.js",
     "./plugin/uninstall/uninstall.js",
@@ -51,6 +52,12 @@
     "./aws/package/compile/events/cloudFront/index.js",
     "./aws/deployFunction/index.js",
     "./aws/deployList/index.js",
-    "./aws/invokeLocal/index.js"
+    "./aws/invokeLocal/index.js",
+    "./knative/provider/knativeProvider.js",
+    "./knative/package/knativePackage.js",
+    "./knative/deploy/knativeDeploy.js",
+    "./knative/info/knativeInfo.js",
+    "./knative/remove/knativeRemove.js",
+    "./knative/setup/knativeSetup.js"
   ]
 }
